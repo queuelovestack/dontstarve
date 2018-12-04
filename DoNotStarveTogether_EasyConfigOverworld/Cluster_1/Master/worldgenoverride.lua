@@ -8,8 +8,8 @@ return {
         task_set = "default",           -- "classic", "default", "cave_default"
         start_location = "default",     -- "caves", "default", "plus", "darkness"
         world_size = "default",         -- "small", "medium", "default", "huge"
-        branching = "default",          -- "never", "least", "default", "most"
-        loop = "default",               -- "never", "default", "always"
+        branching = "most",	            -- "never", "least", "default", "most"
+        loop = "never",                 -- "never", "default", "always"
         autumn = "default",             -- "noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"
         winter = "default",             -- "noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"
         spring = "default",             -- "noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"
@@ -93,7 +93,7 @@ return {
         walrus = "default",
         liefs = "default",
         deciduousmonster = "default",
-        krampus = "often",
+        krampus = "default",
         bearger = "often",
         deerclops = "often",
         goosemoose = "default",
