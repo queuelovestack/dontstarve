@@ -1,0 +1,143 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 46%
+	Available Physical Memory: 8646m/16247m
+	Available Page File: 19753m/32493m
+	Available Virtual Memory: 4011m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 9m
+	Working Set Size: 8m
+	Quota Peak Page Pool Usage: 154k
+	Quota Page Pool Usage: 151k
+	Quota Peak Non Paged Pool Usage:13k
+	Quota Non Paged Pool Usage: 12k
+	Page File Usage: 3m
+	Peak Page File Usage: 3m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether_EasyConfigCaves/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 296477
+[00:00:00]: Current time: Mon Dec 03 20:44:03 2018
+
+[00:00:00]: Don't Starve Together: 296477 WIN32
+[00:00:00]: Build Date: 3790
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -conf_dir DoNotStarveTogether_EasyConfigCaves -console 
+[00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (2396)
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: ProfileIndex:3.39
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: THREAD - started 'Ping Job Thread' (3928)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Error trying to change cluster setting (NETWORK->cluster_intention) from '' to 'cooperative'
+[00:00:00]: Authorized application E:\steam\steam\steamapps\common\Don't Starve Together Dedicated Server\bin\dontstarve_dedicated_server_nullrenderer.exe is enabled in the firewall.
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether_EasyConfigCaves/Cluster_1/blocklist.txt (Failure)
+[00:00:00]: THREAD - started 'StreamInput' (30040)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether_EasyConfigCaves/Cluster_1/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether_EasyConfigCaves/Cluster_1/whitelist.txt (Failure)
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 7 旗舰版 
+    version                   6.1.7601
+    architecture              64-bit
+    platformSpecific          SP 1.0
+  CPU                       
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+    manufacturer              GenuineIntel
+    clockSpeed                3601
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      Intel(R) HD Graphics 630
+    driverDate                20160827000000.000000-000
+    megsOfRam                 1024
+    refreshRate               60
+    videoModeDescription      1920 x 1080 x 4294967296 colors
+    driverVersion             21.20.16.4508
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]:   taskgrouplist:	default	Together	
+[00:00:00]:   taskgrouplist:	classic	Classic	
+[00:00:00]:   taskgrouplist:	cave_default	Underground	
+[00:00:00]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:00]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:00]: running main.lua
+	
+[00:00:00]: Could not load modindex	
+[00:00:00]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:00]: DownloadMods(0)
+[00:00:00]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:01]: LOADING LUA SUCCESS
+[00:00:01]: PlayerDeaths could not load morgue	
+[00:00:01]: PlayerHistory could not load player_history	
+[00:00:01]: ServerPreferences could not load server_preferences	
+[00:00:01]: bloom_enabled	false	
+[00:00:01]: Could not load saveindex	
+[00:00:01]: OnFilesLoaded()	
+[00:00:01]: OnUpdatePurchaseStateComplete	
+[00:00:01]: Klump load on boot started.	
+[00:00:01]: Klump files loaded: 	0	
+[00:00:02]: 	Load FE	
+[00:00:03]: 	Load FE: done	
+[00:00:03]: THREAD - started 'FilesExistAsyncThread' (9276)
+[00:00:03]: FilesExistAsyncThread started (19281 files)...
+[00:00:03]: ModIndex: Load sequence finished successfully.	
+[00:00:03]: Reset() returning
+[00:00:03]: [200] Account Failed (6): "E_INVALID_TOKEN"
+[00:00:03]: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00:00:03]: !!!! Your Server Will Not Start !!!!
+[00:00:03]: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00:00:03]: No auth token could be found.
+[00:00:03]: To generate a cluster_token you must
+[00:00:03]: open the console from a logged-in game
+[00:00:03]: client with the tilda key (~ / �) and type:
+[00:00:03]: TheNet:GenerateClusterToken()
+[00:00:03]: This will create 'cluster_token.txt' in
+[00:00:03]: your client settings directory. Copy this
+[00:00:03]: into your cluster settings directory.
+[00:00:03]: [Connect] PendingConnection::Reset(true)
+[00:00:04]: ... FilesExistAsyncThread complete
+[00:00:37]: RemoteCommandInput: "c_shutdown()"
+[00:00:37]: c_shutdown	nil	
+[00:00:37]: Collecting garbage...
+[00:00:37]: lua_gc took 0.01 seconds
+[00:00:37]: ~ShardLuaProxy()
+[00:00:37]: ~cEventLeaderboardProxy()
+[00:00:37]: ~ItemServerLuaProxy()
+[00:00:37]: ~InventoryLuaProxy()
+[00:00:37]: ~NetworkLuaProxy()
+[00:00:37]: ~SimLuaProxy()
+[00:00:37]: lua_close took 0.02 seconds
+[00:00:37]: CurlRequestManager::ClientThread::Main() complete
+[00:00:37]: HttpClient2 discarded 0 callbacks.
+[00:00:37]: Shutting down
